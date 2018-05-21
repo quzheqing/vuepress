@@ -21,7 +21,7 @@ module.exports = {
   serviceWorker: true,
   // theme: 'vue',
   themeConfig: {
-    repo: 'vuejs/vuepress',
+    repo: 'quzheqing/vuepress',
     editLinks: true,
     docsDir: 'docs',
     locales: {
@@ -39,10 +39,10 @@ module.exports = {
             text: 'css汇总',
             link: '/css/'
           },
-          // {
-          //   text: '默认主题',
-          //   link: '/default-theme-config/'
-          // }
+          {
+            text: 'git汇总',
+            link: '/git/'
+          }
         ],
         sidebar: {
           '/vue/': genSidebarConfig('vue汇总'),
